@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav><a href="lovisa.html"><img src="img/lovisa.png"></a><a href="Annie.html"><img src="img/Annie.png"></a><a href="Frida.html"><img src="img/Frida.png"></a> <a href="Cajsa.html"><img src="img/Cajsa.png"></a><a href="index.html"><img src="img/icon.png" class="icon"></a></nav>
+    <article class="beauty"><img src="img/beauty.PNG" class="gallery"> </article>
+    <article class="Annie"><h1>Annie</h1><p>Killmagneten number one, killarna spelar inte så stor roll, men det är inte bara dom som drar sig till dig. Annie du är magnetisk du drar alla till dig och alla vill vara i din närhet.
+      Min teori är att det är ditt gudomliga leende och din härliga personlihet som gör att du helt plötsligt har en folksamlig runt dig.
+    </p> </article>
+    <article class="hunk"><img src="img/hunk.JPG" class="gallery"></article>
+    <article class="psyko"><img src="img/psyko.PNG" class="gallery"></article>
+    <article class="expert"><h1>Expert Annie!!</h1> <p>Du är så otroligt smart Annie, oj vad imponerad jag är av dina slutbetyg och bara i allmänhet hur mycket du kan. Men främst är jag imponerad över hur 
+      street smart du är. Hur du alltid vet vad man ska göra, alltid ger så bra råd och allt är så vettig.
+    </p></article>
+    <article class="sista"><img src="img/sista.JPG" class="gallery"></article>
+    <article class="vatten"><img src="img/vatten.JPG" class="gallery"></article>
+    <footer><a href="misc/planering.html"><img src="img/icon.png" ></a></footer>
+
+    <div class="slideshow-container"> 
+    
+        <div class="minaSlides fade">
+            <img src="img/headerblue.png" class="gallery" style="width:100%">
+          </div>
+        
+          <div class="minaSlides fade">
+            <img src="img/headerRed.png" class="gallery" style="width:100%">
+          </div>
+        
+          <div class="minaSlides fade">
+            <img src="img/headerpink.png" class="gallery" style="width:100%">
+          </div>
+  
+  </body>
+      
+  <script>
+    var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("minaSlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 4000); // byte 3 sekunder
+  }
+    
+  </script>
+</html>
