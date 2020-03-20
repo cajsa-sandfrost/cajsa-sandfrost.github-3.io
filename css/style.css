@@ -1,7 +1,7 @@
 body {
     display: grid;
     grid-template-columns:5% auto  auto 5%; 
-    grid-template-rows: 70px 12% 14% 14% 14% 14% 14% 11%;
+    grid-template-rows: 70px 12% 14% 14% 14% 14% 14% 150px;
     gap: 1.5% 4%;
     margin: 0;
 }
@@ -173,13 +173,14 @@ footer{
     grid-column-end: 4;
     grid-row-start: 8; 
     grid-row-end: 9;  
-    object-fit: contain;text-align: center;
-
+    object-fit: contain;
+    text-align: center;
+    overflow: visible;
 }
 
 footer img{
-    object-fit: contain;
     max-height: 100%;
+    object-fit: contain;
 }
 
 /* För sidan Lovisa*/ 
@@ -512,7 +513,7 @@ nav{
     }
 .icon { 
     float: right;
-    margin-right:1%
+    
 }
     
 .slideshow-container {
