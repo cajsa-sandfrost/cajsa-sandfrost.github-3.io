@@ -1,0 +1,929 @@
+body {
+    display: grid;
+    grid-template-columns:5% auto  auto 5%; 
+    grid-template-rows: 70px 12% 14% 14% 14% 14% 14% 11%;
+    gap:1.5% 4%;
+    margin: 0;
+}
+
+h1{
+    margin: 5px;
+}
+
+p{
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+nav{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1; 
+    grid-row-end: 2;
+    text-align: center;
+    box-shadow: 1px 3px 10px grey;
+
+}
+
+nav img{
+    display: inline-block;
+    max-height: 85%;
+    object-fit: scale-down;
+    margin-left: 1%;
+}
+
+
+.slideshow-container{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2; 
+  grid-row-end: 3;
+  margin: 0;
+  display: block;
+  
+
+}
+
+.minaSlides {
+  display: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  overflow: hidden;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  } 
+
+.gallery{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
+}
+
+.A {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3; 
+    grid-row-end: 4;
+    overflow: hidden;
+}
+
+.B{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3; 
+    grid-row-end: 4;
+    box-shadow: 1px 3px 10px grey;
+    position: relative;
+    font-family: 'Barlow';
+    text-align: center;
+    overflow: auto;
+}
+
+
+
+.C{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4; 
+    grid-row-end: 5;
+    box-shadow: 1px 3px 10px grey;
+    position: relative;
+    font-family: 'Barlow';
+    text-align: center;
+    overflow: auto;
+}
+
+.C p{
+    margin-top: 0;
+}
+
+
+.D {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5; 
+    grid-row-end: 6;
+    overflow: hidden;
+}
+
+
+.E{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5; 
+    grid-row-end: 6;
+    overflow: hidden;
+}
+   
+.F {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6; 
+    grid-row-end: 7;
+    overflow: hidden;
+}
+
+    
+.G{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6; 
+    grid-row-end: 7;
+    overflow: hidden;
+}
+
+
+.H{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 7; 
+    grid-row-end: 8; 
+    margin-bottom: 3%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.I{
+    display: none;
+}
+
+footer{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 8; 
+    grid-row-end: 9;  
+    object-fit: contain;text-align: center;
+
+}
+
+footer img{
+    object-fit: contain;
+    max-height: 100%;
+}
+
+/* För sidan Lovisa*/ 
+.vacker{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3; 
+    grid-row-end: 4;
+    overflow: hidden;
+}
+
+.avokado {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:7; 
+    grid-row-end: 8;
+    overflow: hidden;
+}
+
+.glad{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4; 
+    grid-row-end: 5;
+    overflow: hidden;
+}
+
+.gladje{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4; 
+    grid-row-end: 5;
+    overflow: hidden;
+    box-shadow: 1px 3px 10px grey;
+    position: relative;
+    font-family: 'Barlow';
+    text-align: center;
+    overflow: auto;
+}
+
+.gladje p{
+    margin-top: 0;
+}
+
+.utslagen{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5; 
+    grid-row-end: 6;
+    overflow: hidden;
+}
+
+
+.skidor{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6; 
+    grid-row-end: 8;
+    overflow: hidden;
+    }
+
+.skidor img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
+}
+
+.energi{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5; 
+    grid-row-end: 6;
+    overflow: hidden;
+    box-shadow: 1px 3px 10px grey;
+    position: relative;
+    text-align: center;
+    font-family: 'Barlow';
+    overflow: auto;
+}
+
+
+.inspo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6; 
+    grid-row-end: 7;
+    overflow: hidden;
+    box-shadow: 1px 3px 10px grey;
+    position: relative;
+    font-family: 'Barlow';
+    text-align: center;
+    overflow: auto;
+}
+
+
+.grön{
+    display: none;
+}
+
+/*För sidan Annie */
+
+.beauty{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.Annie{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    box-shadow: 1px 3px 10px grey;
+    position: relative;
+    font-family: 'Barlow';
+    text-align: center;
+    overflow: auto;
+}
+
+.Annie p{
+    margin-top: 0;
+}
+
+
+
+.hunk{
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.psyko{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.expert{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    box-shadow: 1px 3px 10px grey;
+    position: relative;
+    font-family: 'Barlow';
+    text-align: center;
+    overflow: auto;
+}
+
+.sista{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.vatten{
+    display: none;
+}
+
+/* För sidan Frida */
+
+.jul{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.Frida{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;  
+    box-shadow: 1px 3px 10px grey;
+    position: relative;
+    overflow: auto;
+    font-family: 'Barlow';
+    text-align: center;
+}
+
+.Frida p{
+    margin-top: 0;
+}
+.karamell{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5; 
+    overflow: auto;
+    box-shadow: 1px 3px 10px grey;
+    position: relative; 
+    overflow: auto;
+    font-family: 'Barlow';
+    text-align: center;
+}
+
+.puss{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:5;  
+    grid-row-end: 6;
+}
+
+.gym{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:5;  
+    grid-row-end: 7;
+}
+
+.döskalle{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:6;  
+    grid-row-end: 7;
+}
+
+
+.kalas{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:7;  
+    grid-row-end: 8; 
+}
+
+.näsa{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:7;  
+    grid-row-end: 8; 
+}
+
+.cute{
+    display: none;
+}
+/* För sidan Cajsa */
+
+.Er{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start:3;  
+    grid-row-end: 4; 
+    box-shadow: 1px 3px 10px grey;
+    position: relative;
+    overflow: auto;
+    font-family: 'Barlow';
+    text-align: center;
+} 
+
+.Er p{
+    margin-top: 0;
+}
+
+.solnedgang{
+    display: none;
+}
+
+.rampen {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:4;  
+    grid-row-end: 5; 
+}
+
+.facetime{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:4;  
+    grid-row-end: 6;
+}
+
+.pizza{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;  
+    grid-row-end: 6; 
+}
+
+.vinnare{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;  
+    grid-row-end: 7;
+}
+
+.fridalovisa{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;  
+    grid-row-end: 7;
+}
+
+.oland{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 7;  
+    grid-row-end: 8;
+}
+
+.usa{
+    display: none;
+}
+
+.meditation{
+    display: none;
+}
+@media (min-width:768px)
+{
+
+
+body{
+    display: grid;
+    grid-template-columns: 3% auto 23.5% 23.5% auto 3%;
+    grid-template-rows: 80px 280px 19.5% 19.5% 19.5% 15% ;
+    margin: 0;
+    GAP:2%;
+}
+nav{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    margin: 0;
+    max-height: 100%;
+    text-align: left;
+    }
+.icon { 
+    float: right;
+    margin-right:1%
+}
+    
+.slideshow-container {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2; 
+    grid-row-end: 3;
+    margin: 0;
+    display: block;
+}
+
+.gallery{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
+}
+    
+
+.A {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    object-fit: fill;
+    margin: 0;
+}
+
+.B
+ {
+     grid-column-start: 3;
+     grid-column-end: 4;
+     margin: 0;
+ }
+
+ .B p{
+    font-size: 25px;
+}
+
+ .C
+ {
+     grid-column-start: 4; 
+     grid-column-end: 6;
+     grid-row-start: 3;
+     grid-row-end: 4; 
+     margin: 0;
+ }
+
+ .D {
+    grid-row-start: 4; 
+    grid-row-end: 5;
+    margin: 0;
+    }
+  
+.E{
+  
+    grid-row-start: 4; 
+    grid-row-end: 5;
+    margin: 0;
+    }
+        
+.F {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4; 
+    grid-row-end: 5;
+    margin: 0;
+    }
+        
+.G{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4; 
+    grid-row-end: 5;
+    margin: 0;
+    }
+    
+.H{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5; 
+    grid-row-end: 6; 
+    margin: 0; 
+}
+
+.I{ 
+    display: block;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 5; 
+    grid-row-end: 6; 
+    margin: 0; 
+    text-align: center;
+}
+
+footer{
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    margin: 0;
+    text-align: center;
+
+}
+footer img {
+    display: inline-block;
+    max-height: 100%;
+}
+
+/* För sidan Lovisa*/ 
+
+
+.vacker{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3; 
+    grid-row-end: 4;
+    margin-bottom: 0;
+
+
+}
+
+.avokado {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start:5; 
+    grid-row-end: 6;
+    margin-right: 0;
+    margin-bottom: 0;
+
+}
+
+.glad{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:4; 
+    grid-row-end: 5;
+    margin-left: 0;
+    margin-bottom: 0;
+
+}
+.utslagen{
+    display: block;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start:4; 
+    grid-row-end: 5;
+    margin: 0;
+}
+
+.skidor{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:3; 
+    grid-row-end: 5;
+    margin-right: 0;
+    margin-bottom: 0;
+    display:block;
+}
+
+.energi{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4; 
+    grid-row-end: 5;
+    margin-bottom: 0;
+    margin-left: 0;
+    }
+
+.gladje{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3; 
+    grid-row-end: 4;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+h1{
+    margin: 10px
+}
+
+p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inspo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:5; 
+    grid-row-end: 6;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.grön{
+    display: block;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5; 
+    grid-row-end: 6;
+    margin-bottom: 0;
+}
+
+/*För sidan Annie */
+
+.beauty{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+.Annie{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4; 
+}
+
+.Annie p{
+    font-size: 25px;
+}
+
+.Annie h1{
+    font-size: 30px;
+}
+
+
+
+.hunk{
+    grid-column-start:5;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.psyko{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.expert{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.expert p{
+    font-size: 25px;
+}
+
+.expert h1{
+    font-size: 30px;
+}
+
+.sista{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.vatten{
+    display: block;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+/* För sidan Frida */
+
+.jul{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.Frida{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;  
+}
+
+.karamell{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6; 
+}
+
+.puss{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start:3;  
+    grid-row-end: 4;
+}
+
+.gym{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start:4;  
+    grid-row-end: 6;
+}
+
+.döskalle{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start:3;  
+    grid-row-end: 4;
+}
+
+.cute{
+    display: block;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start:4;  
+    grid-row-end: 5;
+}
+
+.kalas{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:4;  
+    grid-row-end: 6; 
+}
+
+.näsa{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:4;  
+    grid-row-end: 5; 
+}
+
+/* För sidan Cajsa */
+
+.Er{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start:3;  
+    grid-row-end: 4; 
+} 
+
+.solnedgang{
+    display: block;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start:3;  
+    grid-row-end: 4; 
+}
+
+.rampen {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:4;  
+    grid-row-end: 5; 
+}
+
+.facetime{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:3;  
+    grid-row-end: 5;
+}
+
+.pizza{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;  
+    grid-row-end: 4; 
+}
+
+.vinnare{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;  
+    grid-row-end: 6;
+}
+
+.fridalovisa{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;  
+    grid-row-end: 6;
+}
+
+.usa{
+    display: block;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;  
+    grid-row-end: 6;
+}
+
+.meditation{
+    display: block;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;  
+    grid-row-end: 6;
+}
+
+.oland{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;  
+    grid-row-end: 5;
+}
+
+}
