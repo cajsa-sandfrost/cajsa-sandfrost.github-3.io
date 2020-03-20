@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav><a href="lovisa.html"><img src="img/lovisa.png"></a><a href="Annie.html"><img src="img/Annie.png"></a><a href="Frida.html"><img src="img/Frida.png"></a> <a href="Cajsa.html"><img src="img/Cajsa.png"></a><a href="index.html"><img src="img/icon.png" class="icon"></a></nav>
+    <article class="Er"><h1>Cajsa</h1><p><br>Psajk, kommer inte handla om mig. Även om, även jag är uderbart fantastisk, hahha, så är även denna sidan dedikerad till er. Hallå!! Titta på alla finna bilder på oss/er! Hur glad blir man inte? Hoppas verkligen ni minns alla dessa unerbar stunder. Underbara härliga öland, och när vi vann bästa film, inte för att skryta eller nått ;)</p></article>
+    <article class="solnedgang"><img src="img/solnedgång.png" class="gallery"></article>
+    <article class="rampen"><img src="img/rampen.JPG" class="gallery"> </article>
+    <article class="facetime"><img src="img/facetime.JPG" class="gallery"> </article>
+    <article class="pizza"><img src="img/pizza.JPG" class="gallery"> </article>
+    <article class="fridalovisa"><img src="img/fridalovisa.JPG" class="gallery"></article>
+    <article class="vinnare"><img src= "img/vinnare.JPG" class="gallery"></article>
+    <article class="usa"><img src= "img/usa.JPG" class="gallery"></article>
+    <article class="meditation"><img src= "img/meditation.JPG" class="gallery"></article>
+    <article class="oland"><img src="img/oland.JPG" class="gallery"></article>
+    <footer><a href="misc/planering.html"><img src="img/icon.png" ></a></footer>
+    <div class="slideshow-container"> 
+    
+        <div class="minaSlides fade">
+            <img src="img/headerblue.png" class="gallery" style="width:100%">
+          </div>
+        
+          <div class="minaSlides fade">
+            <img src="img/headerRed.png" class="gallery" style="width:100%" >
+          </div>
+        
+          <div class="minaSlides fade">
+            <img src="img/headerpink.png" class="gallery" style="width:100%">
+          </div>
+</body>
+    
+<script>
+  var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+var i;
+var slides = document.getElementsByClassName("minaSlides");
+for (i = 0; i < slides.length; i++) {
+  slides[i].style.display = "none";
+}
+slideIndex++;
+if (slideIndex > slides.length) {slideIndex = 1}
+slides[slideIndex-1].style.display = "block";
+setTimeout(showSlides, 4000); // byte 4 sekunder
+}
+  
+</script>
+</html>
