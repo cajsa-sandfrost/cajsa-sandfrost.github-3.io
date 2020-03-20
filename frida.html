@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav><a href="lovisa.html"><img src="img/lovisa.png"></a><a href="Annie.html"><img src="img/Annie.png"></a><a href="Frida.html"><img src="img/Frida.png"></a> <a href="Cajsa.html"><img src="img/Cajsa.png"></a><a href="index.html"><img src="img/icon.png" class="icon"></a></nav>
+    <article class="jul"><img src="img/jul.JPG" class="gallery"></article>
+    <article class="Frida"><h1>Frida</h1><p> Du är så otroligt empatisk mot alla och skulle inte göra en fluga färnär och vist så säger man om många, men du skulle verkligen inte gör en fluga färnär. Jag tror inte jag träffat någon så empatisk. Du lägger alltid andra före dig själv! My vegan homie! </p></article>
+    <article class="karamell"><p>En smällkaramell i männsklig form, underbar, sprallig, knasig, vacker och färglad. Så många olika underbara sidor. Härligaste, galnaste vrål skrattet som smitar av sig och får hela rummet att skratta. <br><br> "Hon är nästan bättre än mig på Franska" - Matthew. <br> <br> "Hon har fin klädstil" - Elias  <br>  <br> Och det har du verkligen, min thrift queen! </p></article>
+    <article class="puss"><img src="img/puss.JPG" class="gallery"> </article>
+    <article class="döskalle"><img src="img/döskalle.JPG" class="gallery"></article>
+    <article class="gym"><img src="img/gym.JPG" class="gallery"> </article>
+    <article class="cute"><img src="img/cute.JPG" class="gallery"> </article>
+    <article class="kalas"><img src= "img/kalas.JPG" class="gallery"></article>
+    <article class="näsa"><img src="img/näsan.JPG" class="gallery"></article>
+    <footer><a href="misc/planering.html"><img src="img/icon.png" ></a></footer>
+
+             
+    <div class="slideshow-container"> 
+    
+      
+        <div class="minaSlides fade">
+            <img src="img/headerblue.png" class="gallery" style="width:100%">
+          </div>
+        
+          <div class="minaSlides fade">
+            <img src="img/headerRed.png" class="gallery" style="width:100%">
+          </div>
+        
+          <div class="minaSlides fade">
+            <img src="img/headerpink.png" class="gallery" style="width:100%">
+          </div>
+  
+  </body>
+      
+  <script>
+    var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("minaSlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 4000); // byte 4 sekunder
+  }
+    
+  </script>
+</html>
