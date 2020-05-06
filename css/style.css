@@ -278,7 +278,7 @@ footer img{
 }
 
 
-.grön{
+.gron{
     display: none;
 }
 
@@ -397,7 +397,7 @@ footer img{
     grid-row-end: 7;
 }
 
-.döskalle{
+.doskalle{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start:6;  
@@ -709,7 +709,7 @@ p{
     margin-bottom: 0;
 }
 
-.grön{
+.gron{
     display: block;
     grid-column-start: 3;
     grid-column-end: 5;
@@ -823,7 +823,7 @@ p{
     grid-row-end: 6;
 }
 
-.döskalle{
+.doskalle{
     grid-column-start: 5;
     grid-column-end: 6;
     grid-row-start:3;  
